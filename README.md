@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Hackathon - Cortex seq-FISH + scRNA data
 
 ### Background
@@ -40,6 +39,7 @@ This repo is focusing on one challenge question: what is the minimal number of g
 Starting from the raw scRNAseq data, we used package Scanpy, followed by a standard recipe for filtering, normalization, and highly variable gene annotation. Among the 113 genes that overlapped between scRNAdeq and seqFish data, 46 genes are annotated as high variable genes. These high variable genes could best represent cell types in scRNAseq data.
 
 ```bash
+tar -xzvf rsc/tasic_scRNAseq/full_scRNAseq/GSE71585_RefSeq_counts.tar.gz
 python scr/preprocess_scRNA.py \
 -i rsc/tasic_scRNAseq/full_scRNAseq/GSE71585_RefSeq_counts.csv
 ```
@@ -61,5 +61,3 @@ python scr/eva_model.py \
 
 ![Linear SVC RFEV](figures/linear_svc_rfecv.pdf)
 =======
-# smfishscRNAHackathon
->>>>>>> 79d49050873c4f368e8ddef87d5da093548dc433
