@@ -59,5 +59,5 @@ python scr/eva_model.py \
 -sl rsc/tasic_scRNAseq/seqfish_labels.tsv
 ```
 
-![Linear SVC RFEV](figures/linear_svc_rfecv.pdf)
-=======
+![Linear SVC RFEV](Fig2.pdf)
+
